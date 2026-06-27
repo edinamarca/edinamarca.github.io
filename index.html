@@ -1,224 +1,367 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es" data-theme="dark">
 <head>
-    <meta charset="utf-8">
-    <title>Curriculum VITAE EDR - v2</title>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <!--fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CV | Enrique Alejandro Dinamarca Rebolledo</title>
+
+  <meta
+    name="description"
+    content="Currículum web de Enrique Alejandro Dinamarca Rebolledo, Técnico de Nivel Superior en Soporte Computacional, Soporte TI N1, Help Desk, GLPI, Windows, Linux, Android y ciberseguridad básica."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body class="fondo color-cloud font-body font-body-size">
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#inicio" class="logo">EDR</a>
 
-    <!--div contenedor-->
-    <div class="container">
-        <div class="row">
-            <div class="col s4 offset-s8">
-            <div class="section">
-                <a class="color-menu" href="index.html">INICIO</a>
-                <a class="color-menu" href="blog.html">BLOG</a>
-                
-            
-            </div>
-        
-            </div>
+      <div class="nav-actions">
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema">
+          <span class="theme-toggle__icon" id="themeIcon">☀️</span>
+          <span class="theme-toggle__text" id="themeText">Modo claro</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Soporte Computacional · Help Desk · TI N1</p>
+
+          <h1>Enrique Alejandro Dinamarca Rebolledo</h1>
+
+          <p class="hero-subtitle">
+            Técnico de Nivel Superior en Soporte Computacional con más de 10 años de experiencia en soporte técnico N1,
+            mesa de ayuda, administración de sistemas, GLPI, hardware, software, redes y atención al usuario.
+          </p>
+
+          <div class="hero-tags" aria-label="Especialidades">
+            <span>Soporte TI N1</span>
+            <span>Help Desk</span>
+            <span>GLPI</span>
+            <span>Windows</span>
+            <span>Linux</span>
+            <span>Android</span>
+            <span>Ciberseguridad básica</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="assets/CV_Enrique_Dinamarca_ATS_final_2026.pdf" download>
+              Descargar CV PDF
+            </a>
+            <a class="btn btn-secondary" href="#contacto">
+              Contactar
+            </a>
+          </div>
         </div>
-        
-        
-        
-        <h1 class="titulo">ENRIQUE DINAMARCA R.</h1>
 
-        <div class="row">
-            <div class="bienvenida col s6">
-                <h2 class="titulo">Bienvenid@</h2>
+        <aside class="profile-card" aria-label="Perfil profesional">
+          <div class="photo-frame">
+            <img
+              src="assets/EDR_Foto_Pro.png"
+              alt="Foto profesional de Enrique Alejandro Dinamarca Rebolledo"
+              class="profile-photo"
+            />
+          </div>
 
-                <span class="texto-justificado">
-                Haz llegado  a  mi curriculum VITAE , en esta web podras
-                encontrar información importante sobre mi  y  los proyectos 
-                en los cuales estoy trabajando ó me gustaria empezar.
-                
-                Soy un Experto en Soporte Computacional y web developer freelancer</span> Vivo en Santiago de Chile y mis intereses son:
-                <ul>
-                    <li>Escuchar música</li>
-                    <li>Crear sitios web</li>
-                    <li>Crear proyectos relacionados con la computación</li>
-                    <li>Fan de los animales</li>
-                    <li>Cine</li>
-                </ul>
-                Puedes encontrar mi información de contacto más abajo y gracias por revisar mi CV
+          <div class="profile-info">
+            <h2>Soporte Computacional</h2>
+            <p>Santiago, Región Metropolitana, Chile</p>
+          </div>
 
-            </div>
-            <!--cierre div clase bienvenida-->
+          <div class="contact-mini">
+            <a href="tel:+56975664199">+56 9 7566 4199</a>
+            <a href="mailto:enrique.dinamarca@gmail.com">enrique.dinamarca@gmail.com</a>
+            <a href="https://linkedin.com/in/edinamarca" target="_blank" rel="noopener noreferrer">
+              linkedin.com/in/edinamarca
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-            <div class="foto col s6">
-                <img src="images/yo.png" alt="" class="circle responsive-img">
-            </div>
-            <!--cierre div foto-->
-
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Perfil</p>
+          <h2>Resumen profesional</h2>
         </div>
-        <!--cierre row1-->
 
-        <div class="row">
+        <div class="card">
+          <p>
+            Técnico de Nivel Superior en Soporte Computacional con más de 10 años de experiencia en soporte técnico N1,
+            mesa de ayuda, administración de sistemas y atención al usuario. Especializado en la gestión de incidencias
+            y tickets, instalación y mantención de sistemas operativos Windows, Linux y Android, administración de GLPI
+            y soporte de hardware y software.
+          </p>
 
-            <div class="col s6">
-                <div class="section">
-                    <h2 class="titulo">Datos Laborales</h2>
-
-                    <ul>
-                        <li>Vendedor Clase A en Microplay</li>
-                        <li>Ayudante Laboratorio Informática CDV</li>
-                        <li>Freelancer Soporte Computacional</li>
-
-                    </ul>
-                </div>
-                <!--cierre div clase section-->
-            </div>
-            <!--cierre div col del row2-->
-
-            <div class="col s6">
-                <div class="section">
-                    <h2 class="titulo">Objetivos</h2>
-
-                    <span class="texto-justificado">Ser un Tecnico en Soporte Computacional de buen nivel y tener mi propio negocio de 			ventas de insumos computacionales.  </span>
-
-                </div>
-            </div>
-            <!--cierre div col row3-->
+          <p>
+            Orientado a la continuidad operativa, la satisfacción del usuario y la seguridad digital. Profesional
+            metódico, proactivo y con habilidad para comunicarse con usuarios de distintos perfiles y niveles técnicos.
+          </p>
         </div>
-        <!--cierre div row2-->
+      </div>
+    </section>
 
-
-
-
-
-        <div class="row">
-            <div class="col s6">
-                <div class="section">
-                    <h2 class="titulo">Datos Académicos</h2>
-
-                    <ul>
-                        <li>1° a 6° Colegio San Andres</li>
-                        <li>7° a 4° Colegio Del Valle</li>
-                        <li>2011-2012 Analista Programador DuocUC</li>
-                        <li>2013 Diseño y Programación Inacap</li>
-                        <li>2014-2015 Soporte Computacional ICEL</li>
-
-                    </ul>
-                </div>    
-            </div>
-            <!--cierre col row4<!-->
-      
-            <div class="col s6">
-                <div class="section">
-                    <h3 class="titulo">
-                    Habilidades
-                    </h3>
-
-                    <ul>
-                        <li>Diagramación HTML</li>
-                        <li>CSS</li>
-                        <li>Photoshop</li>
-                        <li>Dreamweaver</li>
-                        <li>Edición de Audio</li>
-                    </ul>
-
-                </div>
-
-            </div>
-            <!--fin objetivos y habilidades-->
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Trayectoria</p>
+          <h2>Experiencia laboral</h2>
         </div>
-			
-            <!--formulario de contacto-->
-            <div class="row">
-            <div class="col s12 m6">
-                <div class="section">
-                    <a href="mailto:enrique.dinamarca@gmail.com"><h3 class="mensajenuevo color-carrot center-align">CONTACTAME</h3></a>
-            	
-                </div>    
-            </div><!--cierre div columns formulario-->
-            
-            <div class="col s12 m6">
-            	<div class="section">
-                    <div class="valign-wrapper">
-            		  <h3 class="mensajenuevo valign center-align color-carrot">
-                	   INVITAME UNA CERVEZA !
-                	   </h3>
-                    </div>
-            	</div><!--cierre div section-->
-            	
-            
-            
-            </div><!--cierre segundo div columns-->
-            
-            </div><!--cierre del div row-->
-         
-            
-            <!-- fin formulario de contacto-->
 
-			<!--proyectos y contacto-->
-			<div class="row">
-                <div class="section">
-				<h3 class=" titulo center-align">Proyectos</h3>
-             
-             	      <ul class="center-align">
-             		     <li>SKGames.cl Mejorar  el sitio web  y el sistema de arriendo de servidores.</li>
-             		     <li>Tener mi propio negocio de Soporte Computacional , con venta de insumos 
-             			computacionales.
-             		     </li>
-             	      </ul>   
-                </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">01/2009 - Presente</div>
+            <div class="timeline-content">
+              <h3>Soporte Computacional</h3>
+              <p class="company">Independiente</p>
+              <ul>
+                <li>Brindar soporte técnico integral en hardware, software y redes a clientes particulares y pymes, resolviendo en promedio 9 requerimientos mensuales.</li>
+                <li>Diagnosticar y reparar equipos, reinstalar y optimizar sistemas operativos Windows, Linux y Android.</li>
+                <li>Asesorar en seguridad digital y respaldo de información, fortaleciendo la protección de datos de usuarios.</li>
+              </ul>
             </div>
-            
-            <div class="row">
-                <div class="section">
-            	   <h3 class="titulo center-align">Contacto</h3>
-            	   <p class="center-align">
-                	   enrique.dinamarca [at] gmail.com
-                        &copy; EDR COMPUTACION 2016-2017
-                    </p>
-                </div>
-                
-            </div><!--fin proyectos y contacto-->
+          </article>
 
-        
-            <div class="row">
-                
-                
-                    <div class="section">
-                        
-                        <p class="center-align">
-                        <a class="center-align" href="http://jigsaw.w3.org/css-validator/check/referer">
-                            <img class="center-align" style="margin:auto; border:0;width:88px;height:31px"
-                            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                            alt="¡CSS Válido!" />
-                        </a>
-                        </p>
-                    </div>
-                    
-                
-        
+          <article class="timeline-item">
+            <div class="timeline-date">11/2023 - 03/2024</div>
+            <div class="timeline-content">
+              <h3>Soporte TI N1</h3>
+              <p class="company">Transportes Yáñez</p>
+              <ul>
+                <li>Atender y resolver incidencias de Nivel 1 en hardware, software y conectividad mediante mesa de ayuda.</li>
+                <li>Gestionar tickets y asegurar el cumplimiento de tiempos de respuesta SLA.</li>
+                <li>Configurar y mantener estaciones de trabajo, cuentas de usuario y periféricos.</li>
+                <li>Escalar casos complejos y documentar incidencias para futuras resoluciones.</li>
+              </ul>
             </div>
-        
-        
+          </article>
 
+          <article class="timeline-item">
+            <div class="timeline-date">05/2022 - 09/2022</div>
+            <div class="timeline-content">
+              <h3>Soporte Informático N1</h3>
+              <p class="company">Hites</p>
+              <ul>
+                <li>Entregar soporte técnico N1 a usuarios internos en entorno retail de alto volumen.</li>
+                <li>Atender aproximadamente 10 tickets diarios con foco en rapidez y calidad de servicio.</li>
+                <li>Instalar, configurar y mantener equipos, impresoras y software corporativo.</li>
+                <li>Apoyar la gestión de inventario de activos tecnológicos y registro de incidencias.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">03/2020 - 05/2020</div>
+            <div class="timeline-content">
+              <h3>Encargado de Informática</h3>
+              <p class="company">Corporación Educacional Colegio del Valle</p>
+              <ul>
+                <li>Administrar la infraestructura tecnológica del establecimiento.</li>
+                <li>Asegurar disponibilidad de equipos y plataformas durante la transición a clases remotas.</li>
+                <li>Coordinar mantención preventiva y correctiva de laboratorios y equipos docentes.</li>
+                <li>Capacitar y dar soporte a profesores y personal administrativo en herramientas digitales.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">11/2017 - 01/2020</div>
+            <div class="timeline-content">
+              <h3>Asesor Técnico</h3>
+              <p class="company">DBSolution SpA</p>
+              <ul>
+                <li>Asesorar a clientes en soluciones de hardware y software.</li>
+                <li>Implementar y configurar sistemas según las necesidades de cada cliente.</li>
+                <li>Ejecutar instalación, mantención y soporte de sistemas operativos y aplicaciones.</li>
+                <li>Administrar GLPI para inventario y tickets de soporte.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">04/2014 - 04/2015 · 03/2016 - 05/2016</div>
+            <div class="timeline-content">
+              <h3>Ayudante de Laboratorio de Computación</h3>
+              <p class="company">Colegio del Valle</p>
+              <ul>
+                <li>Mantener operativos los equipos del laboratorio de computación.</li>
+                <li>Garantizar disponibilidad tecnológica para clases.</li>
+                <li>Apoyar a estudiantes y docentes en uso de software y herramientas ofimáticas.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">12/2013 - 01/2014</div>
+            <div class="timeline-content">
+              <h3>Vendedor Clase A</h3>
+              <p class="company">Microplay</p>
+              <ul>
+                <li>Asesorar a clientes en venta de productos tecnológicos y videojuegos.</li>
+                <li>Cumplir metas comerciales durante temporada alta.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container two-columns">
+        <div>
+          <div class="section-header">
+            <p class="eyebrow">Formación</p>
+            <h2>Educación</h2>
+          </div>
+
+          <div class="card-list">
+            <article class="card">
+              <h3>Técnico de Nivel Superior en Soporte Computacional</h3>
+              <p>Grupo Educacional ICEL · Titulado: 2016</p>
+            </article>
+
+            <article class="card">
+              <h3>Analista Programador Computacional</h3>
+              <p>DuocUC · Estudios no finalizados · 2011 - 2012</p>
+            </article>
+
+            <article class="card">
+              <h3>Enseñanza Media Completa</h3>
+              <p>Colegio del Valle, Maipú</p>
+            </article>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-header">
+            <p class="eyebrow">Certificaciones</p>
+            <h2>Credenciales</h2>
+          </div>
+
+          <div class="card-list">
+            <article class="card">
+              <h3>Remote Work Professional Certification</h3>
+              <p>RWPC · CertID: 89374481</p>
+            </article>
+
+            <article class="card">
+              <h3>Cybersecurity Awareness</h3>
+              <p>CAPC · CertID: 102700406</p>
+            </article>
+
+            <article class="card">
+              <h3>Seguridad Digital Para Tu Día a Día</h3>
+              <p>Santander Academy · ID: OA-2025-0715001387071</p>
+            </article>
+
+            <article class="card">
+              <h3>Storytelling en el Marketing Digital</h3>
+              <p>Santander Academy · ID: OA-2025-0728001496426</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Competencias</p>
+          <h2>Habilidades y herramientas</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Habilidades técnicas</h3>
+            <ul>
+              <li>Soporte técnico N1 y mesa de ayuda</li>
+              <li>Soporte y mantención de hardware y software</li>
+              <li>Instalación y administración de Windows, Linux y Android</li>
+              <li>Gestión de incidencias y tickets con GLPI</li>
+              <li>Inventario y administración de activos tecnológicos</li>
+              <li>Conocimientos básicos en HTML, CSS y PHP</li>
+              <li>Ciberseguridad básica y concientización digital</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Habilidades blandas</h3>
+            <ul>
+              <li>Atención y servicio al usuario</li>
+              <li>Comunicación con perfiles técnicos y no técnicos</li>
+              <li>Resolución de problemas</li>
+              <li>Trabajo metódico</li>
+              <li>Adaptabilidad</li>
+              <li>Proactividad</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>GLPI</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft PowerPoint</li>
+              <li>Microsoft Excel nivel medio</li>
+              <li>Herramientas de soporte remoto</li>
+              <li>Sistemas de tickets</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Español: Nativo</li>
+              <li>Inglés: Básico oral y escrito</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Disponible para oportunidades en soporte TI</h2>
+          <p>
+            Especializado en soporte computacional, mesa de ayuda, gestión de tickets, atención a usuarios y continuidad operativa.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:enrique.dinamarca@gmail.com">enrique.dinamarca@gmail.com</a>
+          <a href="tel:+56975664199">+56 9 7566 4199</a>
+          <a href="https://linkedin.com/in/edinamarca" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <a href="assets/CV_Enrique_Dinamarca_ATS_final_2026.pdf" download>
+            Descargar CV
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Enrique Alejandro Dinamarca Rebolledo</p>
+      <p>CV web desarrollado en HTML5, CSS y JavaScript.</p>
     </div>
-    <!--fin div contenedor-->
+  </footer>
 
-
-
+  <script src="script.js"></script>
 </body>
-
 </html>
